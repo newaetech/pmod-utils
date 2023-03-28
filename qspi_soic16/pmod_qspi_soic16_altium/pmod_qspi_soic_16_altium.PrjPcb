@@ -49,24 +49,7 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=QSPI_WSON.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=0
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=SNNFMOXD
-
-[Document2]
-DocumentPath=pmod_qspi_wson.PcbDoc
+DocumentPath=pmod_qspi_soic16.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -82,8 +65,25 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=URXGQYQO
 
+[Document2]
+DocumentPath=QSPI_soic16.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=0
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=SNNFMOXD
+
 [Document3]
-DocumentPath=wson output.OutJob
+DocumentPath=qspi_soic16_out.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -100,72 +100,72 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for pmod_qspi_swon_68_altium\Design Rule Check - pmod_qspi_wson.html
+DocumentPath=Project Outputs for pmod_qspi_soic_16_altium\Design Rule Check - pmod_qspi_soic16.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for Free Documents\NC Drill\pmod_qspi_wson.DRR
+DocumentPath=Project Outputs for Free Documents\NC Drill\pmod_qspi_soic16.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for Free Documents\Gerber\pmod_qspi_wson.EXTREP
+DocumentPath=Project Outputs for Free Documents\Gerber\pmod_qspi_soic16.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for Free Documents\Gerber\pmod_qspi_wson.GBL
+DocumentPath=Project Outputs for Free Documents\Gerber\pmod_qspi_soic16.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for Free Documents\Gerber\pmod_qspi_wson.GBO
+DocumentPath=Project Outputs for Free Documents\Gerber\pmod_qspi_soic16.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for Free Documents\Gerber\pmod_qspi_wson.GBP
+DocumentPath=Project Outputs for Free Documents\Gerber\pmod_qspi_soic16.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for Free Documents\Gerber\pmod_qspi_wson.GBS
+DocumentPath=Project Outputs for Free Documents\Gerber\pmod_qspi_soic16.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for Free Documents\Gerber\pmod_qspi_wson.GM1
+DocumentPath=Project Outputs for Free Documents\Gerber\pmod_qspi_soic16.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for Free Documents\Gerber\pmod_qspi_wson.GTL
+DocumentPath=Project Outputs for Free Documents\Gerber\pmod_qspi_soic16.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for Free Documents\Gerber\pmod_qspi_wson.GTO
+DocumentPath=Project Outputs for Free Documents\Gerber\pmod_qspi_soic16.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for Free Documents\Gerber\pmod_qspi_wson.GTP
+DocumentPath=Project Outputs for Free Documents\Gerber\pmod_qspi_soic16.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for Free Documents\Gerber\pmod_qspi_wson.GTS
+DocumentPath=Project Outputs for Free Documents\Gerber\pmod_qspi_soic16.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for Free Documents\NC Drill\pmod_qspi_wson.LDP
+DocumentPath=Project Outputs for Free Documents\NC Drill\pmod_qspi_soic16.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for Free Documents\Gerber\pmod_qspi_wson.REP
+DocumentPath=Project Outputs for Free Documents\Gerber\pmod_qspi_soic16.REP
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for Free Documents\NC Drill\pmod_qspi_wson.TXT
+DocumentPath=Project Outputs for Free Documents\NC Drill\pmod_qspi_soic16.TXT
 DItemRevisionGUID=
 
 [Parameter1]
-Name=PrjName
-Value=PMOD QSPI Adapter
-
-[Parameter2]
 Name=PrjLicense
 Value=CC SA
+
+[Parameter2]
+Name=PrjName
+Value=PMOD QSPI Adapter
 
 [Parameter3]
 Name=PrjRev
