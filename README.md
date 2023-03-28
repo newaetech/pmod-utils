@@ -7,6 +7,10 @@ for the QSPI interface.
 
 ![](qspi_wson_68/render-wson68-800px.png)
 
+## QSPI to SOIC16W
+
+![](qspi_soic16/render-soic16-800px.png)
+
 ## 3.3V to 1.8V Translator
 
 Uses bidirectional translator to convert 3.3V FPGA I/O to 1.8V signals. Includes voltage regulator
